@@ -8,11 +8,11 @@ login = () =>{
     erroMsg.innerText="";
 
 
-    if(username === "Kazuhiro" && email === "scheisse@mail" && password === "egal"){
+    if(username === "Kazuhiro" && email === "villeicht@mail" && password === "egal"){
         alert("OMG how did you know it")
         erroMsg.innerHTML = `<a class="gonext" href = ../renshu/renshu.html>Go Next!!</a>`
     } else{
-        erroMsg.innerText = `bist du dunn? go away!!`
+        erroMsg.innerText = `who you are? pls go away!!`
         hint.innerHTML =`<button type="button" onclick="getHint()">Hint<button>`
     }
 
