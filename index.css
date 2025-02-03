@@ -26,6 +26,7 @@ h1 {
     font-size: 2em; 
     color: #d03e70;
     margin-bottom: 20px; 
+    text-shadow: 2px 2px 3px #000000;
 }
 
 
@@ -40,7 +41,7 @@ ul {
 
 li {
     margin: 0 10px; 
-    font-size: 20px;
+    font-size: 25px;
     transform: translateX(-18px);
 }
 
@@ -49,7 +50,8 @@ a {
     color: #4CAF50;
     font-size: 1.2em;
     font-weight: bold;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 1px black;
 }
 
 a:hover {
